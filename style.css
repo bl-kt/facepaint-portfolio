@@ -1,0 +1,74 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+
+  background: rgb(104,182,225);
+  background: -moz-linear-gradient(90deg, rgba(104,182,225,1) 0%, rgba(167,145,228,1) 100%);
+  background: -webkit-linear-gradient(90deg, rgba(104,182,225,1) 0%, rgba(167,145,228,1) 100%);
+  background: linear-gradient(90deg, rgba(104,182,225,1) 0%, rgba(167,145,228,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#68b6e1",endColorstr="#a791e4",GradientType=1);
+
+
+}
+
+main {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo-container {
+  max-width: 500px;
+  display: flex;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.big-logo{
+  width: 100%;
+}
+
+.socials-ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  row-gap: 7px;
+  flex-direction: column;
+}
+
+.socials-li > a{
+  display: flex;
+  align-items: center;
+  column-gap: 4px;
+  justify-content: center;
+}
+
+a {
+  color: white;
+  font-weight: 400;
+  text-decoration: none;
+}
